@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:  var(--secondary-color);
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+/* Colors */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --text-color: #333;
+}
+
+/* components/button.css */
+.btn {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
